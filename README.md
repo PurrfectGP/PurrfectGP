@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning C# and Python
 - 💞️ I’m looking to collaborate on Software Development projects but i am open to trying anything as long as there is coding involved :) 
 - 📫 How to reach me aasimeh2702@gmail.com
+- I'm 16 and have been programming for about 2 years now I started off with Python and currently working with C#
 
 <!---
 PurrfectGP/PurrfectGP is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
