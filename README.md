@@ -11,13 +11,10 @@ is live at harmoniaengine.com. You rate a set of faces and it describes your own
 back to you, from your ratings and nothing else. The wider matching platform is still
 in build.
 
-Most of my time goes on the scoring. Personality is inferred from free text using
-Gemini on Vertex AI, with calibrated per-trait anchors, prompting built to stop the
-model clustering its scores around the mean, and a second observer that re-scores when
-confidence falls below a threshold. Synthetic scores are flagged and held out of the
-production anchor pool, so machine-generated data can be analysed without ever
-contaminating live scoring. Visual preference is a fine-tuned vision model over a
-research face corpus.
+Most of my time goes on the scoring: turning open text into per-trait numbers that are
+stable enough to compare between people, keeping that calibration honest as the models
+underneath it change, and proving it against an evaluation set rather than by eye.
+Visual preference is a fine-tuned vision model over a research face corpus.
 
 ### Stack
 
